@@ -3,6 +3,7 @@ pragma solidity ^0.8.26;
 
 // for maintaining algorithmically 1 token == 1 dollar
 // collateral should be always > stable
+
 contract DSCEngine {
     function depositCollateralAndMintDSC() external {}
 
