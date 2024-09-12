@@ -8,7 +8,6 @@ contract DSCEngine {
     function depositCollateralAndMintDSC() external {}
 
     function depositCollateral() external {
-        
     }
 
     function redeemCollateralForDSC() external {}
