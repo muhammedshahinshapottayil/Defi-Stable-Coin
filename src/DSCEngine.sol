@@ -7,9 +7,7 @@ pragma solidity ^0.8.26;
 contract DSCEngine {
     function depositCollateralAndMintDSC() external {}
 
-    function depositCollateral() external {
-        
-    }
+    function depositCollateral() external {}
 
     function redeemCollateralForDSC() external {}
 
