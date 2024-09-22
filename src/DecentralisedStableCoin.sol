@@ -6,7 +6,7 @@ error DSC__Amount__Zero();
 error DSC__Burn__Amount__Exceeds__Balance();
 error DSC__Not__Zero_Address();
 
-contract DecentralisedStableCoin is ERC20Burnable {
+contract DecentralisedStableCoin is ERC20Burnable, Ownable {
     constructor() ERC20("DecentralisedStableCoin", "DSC") {}
     function burn(uint256 _amount) public override onlyOwner {
         uint256 balance = balanceOf(msg.sender);
